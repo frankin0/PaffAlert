@@ -17,6 +17,13 @@ It's really easy manage PaffAlert from his native function.
 	  console: false
 	});
 ```
+![alt tag](http://s32.postimg.org/kbtssg7id/img1.png)
+![alt tag](http://s32.postimg.org/3qm6csged/img2.png)
+![alt tag](http://s32.postimg.org/jddfq5u6d/img3.png)
+![alt tag](http://s32.postimg.org/6w6s2zz0l/img4.png)
+![alt tag](http://s32.postimg.org/jfxbczxtx/img5.png)
+![alt tag](http://s32.postimg.org/rqnpykirp/img6.png)
+
 You can customize it as best you want, put a background or a picture, text box, or a simple message, you can also insert custom animations.
 ```
   Paff({
