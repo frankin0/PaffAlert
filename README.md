@@ -3,6 +3,56 @@ Simple Js Customize Alert By espoweb.com
 
 It's really easy manage PaffAlert from his native function.
 ```
+Paff({
+  title: 'Title',
+  OpenAnimation: 'flipInY',
+  CloseAnimation: 'zoomOut'
+});
+```
+
+![alt tag](http://s32.postimg.org/kbtssg7id/img1.png)
+
+____________________________________
+```
+  Paff("Button 2 Title", "Testo", "success");
+```
+![alt tag](http://s32.postimg.org/3qm6csged/img2.png)
+
+____________________________________
+```
+  Paff("Button 2 Title", "", "error");
+```
+![alt tag](http://s32.postimg.org/jddfq5u6d/img3.png)
+
+____________________________________
+```
+Paff({
+  title: 'Title',
+  OpenAnimation: 'flipInY',
+  CloseAnimation: 'zoomOut',
+  htmlCode: '<div id="ciao"></div>',	//testo o html
+  inputString: 'Testo Testo',
+  buttonConferme: true
+});
+```
+![alt tag](http://s32.postimg.org/6w6s2zz0l/img4.png)
+
+____________________________________
+```
+Paff({
+  title: 'Title',
+  OpenAnimation: 'flipInY',
+  CloseAnimation: 'zoomOut',
+  htmlCode: 'Capoo',	//testo o html
+  imageSizeWidth: 300,
+  imageSizeHeight: 'auto',
+  image: 'http://www.starcoppe.it/images/grafica-immagine-b.jpg'
+});
+```
+![alt tag](http://s32.postimg.org/jfxbczxtx/img5.png)
+
+____________________________________
+```
   Paff({
 	  title: 'Hello',
 	  OpenAnimation: 'flipInY',
@@ -17,11 +67,6 @@ It's really easy manage PaffAlert from his native function.
 	  console: false
 	});
 ```
-![alt tag](http://s32.postimg.org/kbtssg7id/img1.png)
-![alt tag](http://s32.postimg.org/3qm6csged/img2.png)
-![alt tag](http://s32.postimg.org/jddfq5u6d/img3.png)
-![alt tag](http://s32.postimg.org/6w6s2zz0l/img4.png)
-![alt tag](http://s32.postimg.org/jfxbczxtx/img5.png)
 ![alt tag](http://s32.postimg.org/rqnpykirp/img6.png)
 
 You can customize it as best you want, put a background or a picture, text box, or a simple message, you can also insert custom animations.
